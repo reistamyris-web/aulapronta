@@ -1,6 +1,6 @@
 const numeroSenha = document.querySelector('.parametro-senha__texto');
 const botoes = document.querySelectorAll('.parametro-senha__botao');
-const campoSenha = document.querySelector('.senha');
+const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelectorAll('.checkbox');
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -71,7 +71,7 @@ function geraSenha() {
 }
 
 function classificaSenha(tamanhoAlfabeto) {
-    const barra = document.querySelector('.barra');
+    const barra = document.querySelector('.forca');
     const valorEntropia = document.querySelector('.entropia');
 
     let entropia = 0;
